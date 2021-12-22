@@ -1,0 +1,103 @@
+body{
+    font-family: 'Jolly Lodger', cursive;
+    background-color: #444444;
+    color: #EDEDED;
+    margin: 0 auto;
+}
+
+h1{
+    font-size:65px;
+    letter-spacing: 5px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+.newgamebtn{
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Jolly Lodger', cursive;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 4px;
+}
+.newgamebtn:hover{
+    color: #DA0037;
+}
+.rule{
+    font-size: 25px;
+    transition-duration: 0.5s;
+}
+.rule:hover{
+    color: #DA0037;
+    transition-duration: 0.5s;
+}
+
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.guessed{
+    font-size: 45px;
+    margin-top: -10px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.input-area{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.inputbtn{
+    width: 100px;
+    height: 80px;
+    font-size: 25px;
+    background-color: #171717;
+    color:#DA0037;
+    -webkit-appearance: none;
+    
+}
+.check-btn{
+    font-size: 35px;
+    transition-duration: 0.5s;
+    margin-top: -10px;
+}
+.check-btn:hover{
+    cursor: pointer;
+    color:#DA0037;
+    transition-duration: 0.5s;
+}
+.scoreboard{
+    display: flex;
+    align-items: center;
+}
+.score{
+    font-size: 39px;
+    margin-left: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.won{
+    font-size: 50px;
+    color: greenyellow;
+    margin-top: -25px;
+}
+.lost{
+    font-size: 50px;
+    color: #DA0037;
+    margin-top: -45px;
+}
+.your-guess{
+    font-size: 20px;
+    color: #d38080;
+}
